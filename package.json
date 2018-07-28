@@ -1,15 +1,28 @@
 {
   "name": "react-utils",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kallikrein/react-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kallikrein/react-utils/issues"
+  },
+  "homepage": "https://github.com/Kallikrein/react-utils#readme",
   "main": "index.js",
   "scripts": {
+    "commitmsg": "commitlint -E GIT_PARAMS",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "@commitlint/config-lerna-scopes": "^7.0.0",
+    "husky": "^0.14.3",
     "lerna": "^2.4.0"
   }
 }
